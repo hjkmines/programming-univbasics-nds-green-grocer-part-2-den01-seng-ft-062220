@@ -1,15 +1,30 @@
 require_relative './part_1_solution.rb'
 
+require 'pry'
+
 def apply_coupons(cart, coupons)
-  # Consult README for inputs and outputs
-  #
-  # REMEMBER: This method **should** update cart
+
+coupons.each do |items|
+  items[:item]
+  
+  
 end
 
 def apply_clearance(cart)
   # Consult README for inputs and outputs
   #
   # REMEMBER: This method **should** update cart
+  
+
+
+end
+
+def checkout(items, coupons)
+  
+  
+  
+  
+  
 end
 
 def checkout(cart, coupons)
@@ -22,4 +37,6 @@ def checkout(cart, coupons)
   #
   # BEFORE it begins the work of calculating the total (or else you might have
   # some irritated customers
+  
+  
 end
